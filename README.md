@@ -96,17 +96,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rpaut03l&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rpaut03l&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
 ## 📌 Featured Repos
 
 <div align="center">
