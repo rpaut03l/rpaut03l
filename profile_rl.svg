@@ -1,0 +1,736 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1688" viewBox="0 0 900 1688">
+<defs>
+  <style>
+    .fc { font-family: "Fira Code", "Courier New", monospace; }
+    .js { font-family: "Segoe UI", "Helvetica Neue", sans-serif; }
+  </style>
+  <filter id="gg" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gb" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="gh" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00ff9d"/>
+    <stop offset="50%" stop-color="#00d4ff"/>
+    <stop offset="100%" stop-color="#b44eff"/>
+  </linearGradient>
+  <linearGradient id="cf" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#00ff9d" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00ff9d"/>
+    <stop offset="100%" stop-color="#00c97a"/>
+  </linearGradient>
+  <linearGradient id="bb" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00d4ff"/>
+    <stop offset="100%" stop-color="#0099cc"/>
+  </linearGradient>
+  <linearGradient id="bp" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#b44eff"/>
+    <stop offset="100%" stop-color="#8833cc"/>
+  </linearGradient>
+  <linearGradient id="by" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffd700"/>
+    <stop offset="100%" stop-color="#cc9900"/>
+  </linearGradient>
+  <linearGradient id="bo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff9500"/>
+    <stop offset="100%" stop-color="#cc6600"/>
+  </linearGradient>
+  <linearGradient id="br" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff6b9d"/>
+    <stop offset="100%" stop-color="#cc3366"/>
+  </linearGradient>
+  <linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dp" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.7" fill="rgba(226,232,255,0.035)"/>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="900" height="1688" fill="#060811" stroke="none" stroke-width="1" rx="0"/>
+<rect x="0" y="0" width="900" height="1688" fill="url(#dp)" stroke="none" stroke-width="1" rx="0"/>
+<circle cx="120" cy="350" r="260" fill="#00ff9d" opacity="0.02"/>
+<circle cx="780" cy="250" r="200" fill="#00d4ff" opacity="0.022"/>
+<circle cx="450" cy="1100" r="280" fill="#b44eff" opacity="0.018"/>
+<rect x="0" y="0" width="900" height="36" fill="#030508" stroke="none" stroke-width="1" rx="0"/>
+<line x1="0" y1="35" x2="900" y2="35" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<circle cx="20" cy="18" r="4" fill="#00ff9d" filter="url(#gg)"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/></circle>
+<text x="32" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.5)" text-anchor="start" letter-spacing="0" opacity="1">Agent Active</text>
+<text x="108" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(255,255,255,0.12)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="118" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.32)" text-anchor="start" letter-spacing="0" opacity="1">episode:</text>
+<text x="162" y="23" class="fc" font-size="9" font-weight="400" fill="#e2e8ff" text-anchor="start" letter-spacing="0" opacity="1">∞</text>
+<text x="178" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(255,255,255,0.12)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="188" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.32)" text-anchor="start" letter-spacing="0" opacity="1">reward:</text>
+<text x="226" y="23" class="fc" font-size="9" font-weight="400" fill="#00ff9d" text-anchor="start" letter-spacing="0" opacity="1">+9847.3</text>
+<text x="276" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(255,255,255,0.12)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="286" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.5)" text-anchor="start" letter-spacing="0" opacity="1">ε: 0.01 (converged)</text>
+<text x="415" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(255,255,255,0.12)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="425" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.5)" text-anchor="start" letter-spacing="0" opacity="1">γ: 0.99</text>
+<text x="468" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(255,255,255,0.12)" text-anchor="start" letter-spacing="0" opacity="1">|</text>
+<text x="478" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.5)" text-anchor="start" letter-spacing="0" opacity="1">policy: greedy</text>
+<text x="638" y="23" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.25)" text-anchor="start" letter-spacing="0" opacity="1">Singapore UTC+08</text>
+<rect x="748" y="9" width="136" height="18" fill="none" stroke="rgba(0,212,255,0.28)" stroke-width="1" rx="0"/>
+<text x="816" y="22" class="fc" font-size="9" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="2" opacity="1">CONVERGED</text>
+<rect x="0" y="36" width="900" height="56" fill="#060811" stroke="none" stroke-width="1" rx="0"/>
+<line x1="0" y1="91" x2="900" y2="91" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<text x="44" y="72" class="fc" font-size="15" font-weight="400" fill="#ffffff" text-anchor="start" letter-spacing="3" opacity="1">r</text>
+<text x="54" y="72" class="fc" font-size="15" font-weight="400" fill="#00ff9d" text-anchor="start" letter-spacing="3" opacity="1" filter="url(#gg)">pau</text>
+<text x="90" y="72" class="fc" font-size="15" font-weight="400" fill="#ffffff" text-anchor="start" letter-spacing="3" opacity="1">t03l</text>
+<text x="200" y="72" class="fc" font-size="9.5" font-weight="400" fill="rgba(226,232,255,0.2)" text-anchor="start" letter-spacing="0" opacity="1">π*(s) = argmax_a Q*(s,a)  |  </text>
+<text x="440" y="72" class="fc" font-size="9.5" font-weight="400" fill="#00d4ff" text-anchor="start" letter-spacing="0" opacity="1">optimal policy</text>
+<text x="540" y="72" class="fc" font-size="9.5" font-weight="400" fill="rgba(226,232,255,0.2)" text-anchor="start" letter-spacing="0" opacity="1">  |  12yr+ experience</text>
+<rect x="698" y="58" width="74" height="22" fill="none" stroke="rgba(0,255,157,0.28)" stroke-width="1" rx="0"/>
+<text x="735" y="73" class="fc" font-size="9" font-weight="400" fill="#00ff9d" text-anchor="middle" letter-spacing="2" opacity="1">EXPLOIT</text>
+<rect x="780" y="58" width="78" height="22" fill="none" stroke="rgba(255,215,0,0.22)" stroke-width="1" rx="0"/>
+<text x="819" y="73" class="fc" font-size="9" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="2" opacity="1">EXPLORE</text>
+<text x="44" y="124" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">Optimal Policy · Q-Learning · Reward Maximization</text>
+<text x="44" y="202" class="js" font-size="66" font-weight="800" fill="rgba(226,232,255,0.88)" text-anchor="start" letter-spacing="0" opacity="1">Policy:</text>
+<text x="44" y="274" class="js" font-size="66" font-weight="800" fill="url(#gh)" filter="url(#gg)">Optimal.</text>
+<text x="44" y="300" class="fc" font-size="9.5" font-weight="300" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="2" opacity="1">AIOps · MLOps · SRE · LLMOps · CUDA · Agentic AI · MCP · A2A</text>
+<text x="44" y="320" class="js" font-size="13" font-weight="400" fill="rgba(226,232,255,0.42)" text-anchor="start" letter-spacing="0" opacity="1">State: Singapore production environment.  Action space:</text>
+<rect x="388" y="307" width="198" height="18" fill="rgba(0,255,157,0.07)" stroke="none" stroke-width="1" rx="0"/>
+<text x="392" y="320" class="fc" font-size="11" font-weight="400" fill="#00ff9d" text-anchor="start" letter-spacing="0" opacity="1">AIOps + MLOps + CUDA + Agentic</text>
+<text x="44" y="342" class="js" font-size="13" font-weight="400" fill="rgba(226,232,255,0.42)" text-anchor="start" letter-spacing="0" opacity="1">After 12+ years of episodes, agent has converged to an optimal policy —</text>
+<rect x="44" y="351" width="30" height="18" fill="rgba(0,255,157,0.07)" stroke="none" stroke-width="1" rx="0"/>
+<text x="47" y="364" class="fc" font-size="11" font-weight="400" fill="#00ff9d" text-anchor="start" letter-spacing="0" opacity="1">ε→0</text>
+<text x="79" y="364" class="js" font-size="13" font-weight="400" fill="rgba(226,232,255,0.42)" text-anchor="start" letter-spacing="0" opacity="1">, pure exploitation of learned value functions.</text>
+<rect x="44" y="390" width="57" height="24" fill="none" stroke="rgba(0,255,157,0.28)" stroke-width="1" rx="0"/>
+<text x="72" y="406" class="fc" font-size="10" font-weight="400" fill="#00ff9d" text-anchor="middle" letter-spacing="0" opacity="1">AIOps</text>
+<rect x="109" y="390" width="57" height="24" fill="none" stroke="rgba(0,212,255,0.28)" stroke-width="1" rx="0"/>
+<text x="137" y="406" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">MLOps</text>
+<rect x="174" y="390" width="43" height="24" fill="none" stroke="rgba(255,107,157,0.28)" stroke-width="1" rx="0"/>
+<text x="195" y="406" class="fc" font-size="10" font-weight="400" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">SRE</text>
+<rect x="225" y="390" width="113" height="24" fill="none" stroke="rgba(255,215,0,0.28)" stroke-width="1" rx="0"/>
+<text x="281" y="406" class="fc" font-size="10" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">LLMOps · CUDA</text>
+<rect x="346" y="390" width="148" height="24" fill="none" stroke="rgba(180,78,255,0.28)" stroke-width="1" rx="0"/>
+<text x="420" y="406" class="fc" font-size="10" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">MCP · A2A · Agents</text>
+<rect x="44" y="428" width="420" height="108" fill="rgba(6,8,17,0.9)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<text x="56" y="445" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.45)" text-anchor="start" letter-spacing="2" opacity="1">CUMULATIVE REWARD — 12yr TRAINING</text>
+<line x1="56" y1="452" x2="462" y2="452" stroke="rgba(255,255,255,0.04)" stroke-width="0.8"/>
+<line x1="56" y1="470" x2="462" y2="470" stroke="rgba(255,255,255,0.04)" stroke-width="0.8"/>
+<line x1="56" y1="488" x2="462" y2="488" stroke="rgba(255,255,255,0.04)" stroke-width="0.8"/>
+<line x1="56" y1="506" x2="462" y2="506" stroke="rgba(255,255,255,0.04)" stroke-width="0.8"/>
+<line x1="56" y1="524" x2="462" y2="524" stroke="rgba(255,255,255,0.04)" stroke-width="0.8"/>
+<path d="M56,520 L62,520 L69,520 L76,520 L83,519 L90,519 L97,519 L104,518 L111,518 L117,517 L124,516 L131,516 L138,515 L145,515 L152,514 L159,513 L166,512 L172,512 L179,511 L186,510 L193,509 L200,508 L207,507 L214,506 L221,505 L228,505 L234,504 L241,503 L248,502 L255,501 L262,499 L269,498 L276,497 L283,496 L289,495 L296,494 L303,493 L310,492 L317,491 L324,489 L331,488 L338,487 L345,486 L351,484 L358,483 L365,482 L372,481 L379,479 L386,478 L393,477 L400,475 L406,474 L413,473 L420,471 L427,470 L434,468 L441,467 L448,465 L455,464 L462,462 L462,524 L56,524 Z" fill="url(#cf)"/>
+<path d="M56,520 L62,520 L69,520 L76,520 L83,519 L90,519 L97,519 L104,518 L111,518 L117,517 L124,516 L131,516 L138,515 L145,515 L152,514 L159,513 L166,512 L172,512 L179,511 L186,510 L193,509 L200,508 L207,507 L214,506 L221,505 L228,505 L234,504 L241,503 L248,502 L255,501 L262,499 L269,498 L276,497 L283,496 L289,495 L296,494 L303,493 L310,492 L317,491 L324,489 L331,488 L338,487 L345,486 L351,484 L358,483 L365,482 L372,481 L379,479 L386,478 L393,477 L400,475 L406,474 L413,473 L420,471 L427,470 L434,468 L441,467 L448,465 L455,464 L462,462" fill="none" stroke="#00ff9d" stroke-width="2" filter="url(#gg)"/>
+<text x="406" y="466" class="fc" font-size="9" font-weight="400" fill="rgba(0,255,157,0.75)" text-anchor="start" letter-spacing="0" opacity="1">R(t)→∞</text>
+<rect x="490" y="118" width="100" height="68" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="490" y="184" width="100" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="540" y="156" class="fc" font-size="22" font-weight="500" fill="#00ff9d" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gg)">58</text>
+<text x="540" y="170" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="1" opacity="1">Repos</text>
+<rect x="598" y="118" width="100" height="68" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="598" y="184" width="100" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="648" y="156" class="fc" font-size="22" font-weight="500" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gg)">64</text>
+<text x="648" y="170" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="1" opacity="1">Stars</text>
+<rect x="490" y="194" width="100" height="68" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="490" y="260" width="100" height="2" fill="#ff6b9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="540" y="232" class="fc" font-size="22" font-weight="500" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gg)">8</text>
+<text x="540" y="246" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="1" opacity="1">Certs</text>
+<rect x="598" y="194" width="100" height="68" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="598" y="260" width="100" height="2" fill="#ffd700" stroke="none" stroke-width="1" rx="0"/>
+<text x="648" y="232" class="fc" font-size="22" font-weight="500" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gg)">∞</text>
+<text x="648" y="246" class="js" font-size="9" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="1" opacity="1">Episodes</text>
+<rect x="490" y="280" width="366" height="200" fill="rgba(6,8,17,0.9)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="490" y="280" width="20" height="20" fill="rgba(44,127,140,0.08)"/>
+<rect x="570" y="280" width="20" height="20" fill="rgba(51,147,140,0.10)"/>
+<rect x="590" y="280" width="20" height="20" fill="rgba(47,135,140,0.09)"/>
+<rect x="610" y="280" width="20" height="20" fill="rgba(62,178,140,0.12)"/>
+<rect x="710" y="280" width="20" height="20" fill="rgba(35,101,140,0.07)"/>
+<rect x="770" y="280" width="20" height="20" fill="rgba(45,129,140,0.08)"/>
+<rect x="790" y="280" width="20" height="20" fill="rgba(38,108,140,0.07)"/>
+<rect x="830" y="280" width="20" height="20" fill="rgba(41,117,140,0.08)"/>
+<rect x="490" y="300" width="20" height="20" fill="rgba(56,161,140,0.11)"/>
+<rect x="530" y="300" width="20" height="20" fill="rgba(56,161,140,0.10)"/>
+<rect x="550" y="300" width="20" height="20" fill="rgba(48,139,140,0.09)"/>
+<rect x="610" y="300" width="20" height="20" fill="rgba(67,191,140,0.12)"/>
+<rect x="690" y="300" width="20" height="20" fill="rgba(59,169,140,0.11)"/>
+<rect x="710" y="300" width="20" height="20" fill="rgba(42,120,140,0.08)"/>
+<rect x="730" y="300" width="20" height="20" fill="rgba(56,161,140,0.10)"/>
+<rect x="750" y="300" width="20" height="20" fill="rgba(51,145,140,0.09)"/>
+<rect x="770" y="300" width="20" height="20" fill="rgba(37,107,140,0.07)"/>
+<rect x="790" y="300" width="20" height="20" fill="rgba(68,194,140,0.13)"/>
+<rect x="830" y="300" width="20" height="20" fill="rgba(38,110,140,0.07)"/>
+<rect x="490" y="320" width="20" height="20" fill="rgba(58,165,140,0.11)"/>
+<rect x="510" y="320" width="20" height="20" fill="rgba(43,123,140,0.08)"/>
+<rect x="530" y="320" width="20" height="20" fill="rgba(60,172,140,0.11)"/>
+<rect x="550" y="320" width="20" height="20" fill="rgba(40,115,140,0.08)"/>
+<rect x="570" y="320" width="20" height="20" fill="rgba(49,140,140,0.09)"/>
+<rect x="730" y="320" width="20" height="20" fill="rgba(44,127,140,0.08)"/>
+<rect x="830" y="320" width="20" height="20" fill="rgba(65,187,140,0.12)"/>
+<rect x="490" y="340" width="20" height="20" fill="rgba(45,129,140,0.08)"/>
+<rect x="510" y="340" width="20" height="20" fill="rgba(42,121,140,0.08)"/>
+<rect x="550" y="340" width="20" height="20" fill="rgba(51,145,140,0.09)"/>
+<rect x="610" y="340" width="20" height="20" fill="rgba(69,197,140,0.13)"/>
+<rect x="630" y="340" width="20" height="20" fill="rgba(44,127,140,0.08)"/>
+<rect x="650" y="340" width="20" height="20" fill="rgba(38,111,140,0.07)"/>
+<rect x="670" y="340" width="20" height="20" fill="rgba(47,136,140,0.09)"/>
+<rect x="690" y="340" width="20" height="20" fill="rgba(58,168,140,0.11)"/>
+<rect x="710" y="340" width="20" height="20" fill="rgba(54,155,140,0.10)"/>
+<rect x="830" y="340" width="20" height="20" fill="rgba(66,188,140,0.12)"/>
+<rect x="490" y="360" width="20" height="20" fill="rgba(61,175,140,0.11)"/>
+<rect x="530" y="360" width="20" height="20" fill="rgba(45,131,140,0.09)"/>
+<rect x="570" y="360" width="20" height="20" fill="rgba(64,182,140,0.12)"/>
+<rect x="590" y="360" width="20" height="20" fill="rgba(32,91,140,0.06)"/>
+<rect x="650" y="360" width="20" height="20" fill="rgba(39,112,140,0.07)"/>
+<rect x="690" y="360" width="20" height="20" fill="rgba(40,116,140,0.08)"/>
+<rect x="710" y="360" width="20" height="20" fill="rgba(62,179,140,0.12)"/>
+<rect x="770" y="360" width="20" height="20" fill="rgba(69,199,140,0.13)"/>
+<rect x="790" y="360" width="20" height="20" fill="rgba(35,101,140,0.07)"/>
+<rect x="510" y="380" width="20" height="20" fill="rgba(43,125,140,0.08)"/>
+<rect x="530" y="380" width="20" height="20" fill="rgba(55,158,140,0.10)"/>
+<rect x="610" y="380" width="20" height="20" fill="rgba(69,199,140,0.13)"/>
+<rect x="630" y="380" width="20" height="20" fill="rgba(37,105,140,0.07)"/>
+<rect x="650" y="380" width="20" height="20" fill="rgba(67,194,140,0.13)"/>
+<rect x="670" y="380" width="20" height="20" fill="rgba(60,172,140,0.11)"/>
+<rect x="710" y="380" width="20" height="20" fill="rgba(50,144,140,0.09)"/>
+<rect x="730" y="380" width="20" height="20" fill="rgba(47,136,140,0.09)"/>
+<rect x="750" y="380" width="20" height="20" fill="rgba(37,107,140,0.07)"/>
+<rect x="790" y="380" width="20" height="20" fill="rgba(44,128,140,0.08)"/>
+<rect x="490" y="400" width="20" height="20" fill="rgba(31,90,140,0.06)"/>
+<rect x="510" y="400" width="20" height="20" fill="rgba(66,190,140,0.12)"/>
+<rect x="530" y="400" width="20" height="20" fill="rgba(61,175,140,0.11)"/>
+<rect x="570" y="400" width="20" height="20" fill="rgba(35,100,140,0.07)"/>
+<rect x="610" y="400" width="20" height="20" fill="rgba(63,182,140,0.12)"/>
+<rect x="630" y="400" width="20" height="20" fill="rgba(60,174,140,0.11)"/>
+<rect x="670" y="400" width="20" height="20" fill="rgba(44,127,140,0.08)"/>
+<rect x="690" y="400" width="20" height="20" fill="rgba(42,121,140,0.08)"/>
+<rect x="730" y="400" width="20" height="20" fill="rgba(53,152,140,0.10)"/>
+<rect x="750" y="400" width="20" height="20" fill="rgba(37,107,140,0.07)"/>
+<rect x="770" y="400" width="20" height="20" fill="rgba(54,155,140,0.10)"/>
+<rect x="790" y="400" width="20" height="20" fill="rgba(37,106,140,0.07)"/>
+<rect x="510" y="420" width="20" height="20" fill="rgba(65,185,140,0.12)"/>
+<rect x="530" y="420" width="20" height="20" fill="rgba(61,175,140,0.11)"/>
+<rect x="550" y="420" width="20" height="20" fill="rgba(58,166,140,0.11)"/>
+<rect x="610" y="420" width="20" height="20" fill="rgba(61,175,140,0.11)"/>
+<rect x="630" y="420" width="20" height="20" fill="rgba(66,189,140,0.12)"/>
+<rect x="670" y="420" width="20" height="20" fill="rgba(34,97,140,0.06)"/>
+<rect x="710" y="420" width="20" height="20" fill="rgba(53,152,140,0.10)"/>
+<rect x="730" y="420" width="20" height="20" fill="rgba(53,153,140,0.10)"/>
+<rect x="770" y="420" width="20" height="20" fill="rgba(33,95,140,0.06)"/>
+<rect x="790" y="420" width="20" height="20" fill="rgba(38,109,140,0.07)"/>
+<rect x="830" y="420" width="20" height="20" fill="rgba(61,174,140,0.11)"/>
+<rect x="530" y="440" width="20" height="20" fill="rgba(37,107,140,0.07)"/>
+<rect x="550" y="440" width="20" height="20" fill="rgba(51,145,140,0.09)"/>
+<rect x="610" y="440" width="20" height="20" fill="rgba(69,199,140,0.13)"/>
+<rect x="630" y="440" width="20" height="20" fill="rgba(45,129,140,0.08)"/>
+<rect x="670" y="440" width="20" height="20" fill="rgba(36,103,140,0.07)"/>
+<rect x="750" y="440" width="20" height="20" fill="rgba(41,117,140,0.08)"/>
+<rect x="830" y="440" width="20" height="20" fill="rgba(44,126,140,0.08)"/>
+<rect x="510" y="460" width="20" height="20" fill="rgba(63,181,140,0.12)"/>
+<rect x="530" y="460" width="20" height="20" fill="rgba(60,171,140,0.11)"/>
+<rect x="590" y="460" width="20" height="20" fill="rgba(46,133,140,0.09)"/>
+<rect x="650" y="460" width="20" height="20" fill="rgba(65,187,140,0.12)"/>
+<rect x="670" y="460" width="20" height="20" fill="rgba(39,114,140,0.07)"/>
+<rect x="690" y="460" width="20" height="20" fill="rgba(33,94,140,0.06)"/>
+<rect x="710" y="460" width="20" height="20" fill="rgba(54,156,140,0.10)"/>
+<rect x="730" y="460" width="20" height="20" fill="rgba(56,161,140,0.10)"/>
+<rect x="830" y="460" width="20" height="20" fill="rgba(32,93,140,0.06)"/>
+<line x1="490" y1="280" x2="490" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="510" y1="280" x2="510" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="530" y1="280" x2="530" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="550" y1="280" x2="550" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="570" y1="280" x2="570" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="590" y1="280" x2="590" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="610" y1="280" x2="610" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="630" y1="280" x2="630" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="650" y1="280" x2="650" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="670" y1="280" x2="670" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="690" y1="280" x2="690" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="710" y1="280" x2="710" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="730" y1="280" x2="730" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="750" y1="280" x2="750" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="770" y1="280" x2="770" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="790" y1="280" x2="790" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="810" y1="280" x2="810" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="830" y1="280" x2="830" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="850" y1="280" x2="850" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="280" x2="856" y2="280" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="300" x2="856" y2="300" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="320" x2="856" y2="320" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="340" x2="856" y2="340" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="360" x2="856" y2="360" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="380" x2="856" y2="380" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="400" x2="856" y2="400" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="420" x2="856" y2="420" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="440" x2="856" y2="440" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="460" x2="856" y2="460" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="490" y1="480" x2="856" y2="480" stroke="rgba(255,255,255,0.055)" stroke-width="0.4"/>
+<line x1="500" y1="290" x2="505" y2="290" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="290" x2="525" y2="290" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="290" x2="545" y2="290" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="290" x2="565" y2="290" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="290" x2="585" y2="290" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="290" x2="605" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="290" x2="625" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="290" x2="645" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="290" x2="665" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="290" x2="685" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="290" x2="705" y2="291" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="290" x2="725" y2="292" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="290" x2="745" y2="292" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="290" x2="764" y2="293" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="290" x2="784" y2="294" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="290" x2="802" y2="295" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="290" x2="820" y2="296" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="290" x2="838" y2="295" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="310" x2="505" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="310" x2="525" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="310" x2="545" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="310" x2="565" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="310" x2="585" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="310" x2="605" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="310" x2="625" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="310" x2="645" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="310" x2="665" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="310" x2="685" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="310" x2="705" y2="310" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="310" x2="725" y2="311" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="310" x2="745" y2="311" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="310" x2="765" y2="311" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="310" x2="785" y2="312" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="310" x2="804" y2="314" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="310" x2="820" y2="316" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="310" x2="836" y2="314" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="330" x2="506" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="330" x2="526" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="330" x2="546" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="330" x2="566" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="330" x2="586" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="330" x2="606" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="330" x2="626" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="330" x2="646" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="330" x2="666" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="330" x2="686" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="330" x2="706" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="330" x2="726" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="330" x2="746" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="330" x2="766" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="330" x2="786" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="330" x2="806" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="330" x2="820" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="330" x2="834" y2="330" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="350" x2="505" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="350" x2="525" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="350" x2="545" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="350" x2="565" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="350" x2="585" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="350" x2="605" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="350" x2="625" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="350" x2="645" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="350" x2="665" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="350" x2="685" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="350" x2="705" y2="350" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="350" x2="725" y2="349" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="350" x2="745" y2="349" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="350" x2="765" y2="349" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="350" x2="785" y2="348" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="350" x2="804" y2="346" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="350" x2="820" y2="344" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="350" x2="836" y2="346" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="370" x2="505" y2="370" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="370" x2="525" y2="370" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="370" x2="545" y2="370" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="370" x2="565" y2="370" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="370" x2="585" y2="370" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="370" x2="605" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="370" x2="625" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="370" x2="645" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="370" x2="665" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="370" x2="685" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="370" x2="705" y2="369" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="370" x2="725" y2="368" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="370" x2="745" y2="368" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="370" x2="764" y2="367" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="370" x2="784" y2="366" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="370" x2="802" y2="365" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="370" x2="820" y2="364" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="370" x2="838" y2="365" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="390" x2="505" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="390" x2="525" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="390" x2="545" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="390" x2="565" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="390" x2="585" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="390" x2="605" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="390" x2="625" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="390" x2="645" y2="389" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="390" x2="665" y2="388" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="390" x2="685" y2="388" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="390" x2="705" y2="388" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="390" x2="725" y2="387" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="390" x2="744" y2="387" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="390" x2="764" y2="386" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="390" x2="783" y2="386" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="390" x2="801" y2="385" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="390" x2="820" y2="384" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="390" x2="839" y2="385" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="410" x2="505" y2="409" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="410" x2="525" y2="409" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="410" x2="545" y2="409" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="410" x2="565" y2="409" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="410" x2="585" y2="409" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="410" x2="605" y2="408" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="410" x2="625" y2="408" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="410" x2="645" y2="408" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="410" x2="665" y2="408" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="410" x2="685" y2="408" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="410" x2="704" y2="407" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="410" x2="724" y2="407" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="410" x2="744" y2="406" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="410" x2="763" y2="406" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="410" x2="782" y2="405" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="410" x2="801" y2="405" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="410" x2="820" y2="404" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="410" x2="839" y2="405" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="430" x2="505" y2="429" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="430" x2="525" y2="429" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="430" x2="545" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="430" x2="565" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="430" x2="585" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="430" x2="605" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="430" x2="625" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="430" x2="645" y2="428" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="430" x2="665" y2="427" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="430" x2="684" y2="427" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="430" x2="704" y2="427" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="430" x2="724" y2="426" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="430" x2="743" y2="426" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="430" x2="763" y2="425" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="430" x2="782" y2="425" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="430" x2="801" y2="425" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="430" x2="820" y2="424" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="430" x2="839" y2="425" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="450" x2="505" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="450" x2="525" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="450" x2="545" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="450" x2="565" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="450" x2="585" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="450" x2="605" y2="448" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="450" x2="625" y2="447" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="450" x2="644" y2="447" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="450" x2="664" y2="447" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="450" x2="684" y2="447" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="450" x2="704" y2="446" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="450" x2="723" y2="446" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="450" x2="743" y2="446" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="450" x2="762" y2="445" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="450" x2="781" y2="445" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="450" x2="800" y2="445" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="450" x2="820" y2="444" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="450" x2="840" y2="445" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="500" y1="470" x2="505" y2="468" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="520" y1="470" x2="525" y2="468" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="540" y1="470" x2="545" y2="468" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="560" y1="470" x2="565" y2="468" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="580" y1="470" x2="585" y2="467" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="600" y1="470" x2="605" y2="467" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="620" y1="470" x2="624" y2="467" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="640" y1="470" x2="644" y2="467" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="660" y1="470" x2="664" y2="467" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="680" y1="470" x2="684" y2="466" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="700" y1="470" x2="703" y2="466" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="720" y1="470" x2="723" y2="466" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="740" y1="470" x2="742" y2="465" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="760" y1="470" x2="762" y2="465" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="780" y1="470" x2="781" y2="465" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="800" y1="470" x2="800" y2="465" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="820" y1="470" x2="820" y2="464" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<line x1="840" y1="470" x2="840" y2="465" stroke="rgba(0,212,255,0.1)" stroke-width="0.8"/>
+<circle cx="820" cy="330" r="24" fill="rgba(0,212,255,0.14)"/>
+<circle cx="820" cy="330" r="10" fill="rgba(0,212,255,0.3)"/>
+<text x="820" y="335" class="fc" font-size="13" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gb)">◈</text>
+<circle cx="800" cy="430" r="24" fill="rgba(0,212,255,0.14)"/>
+<circle cx="800" cy="430" r="10" fill="rgba(0,212,255,0.3)"/>
+<text x="800" y="435" class="fc" font-size="13" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1" filter="url(#gb)">◈</text>
+<circle cx="540" cy="330" r="13" fill="rgba(0,255,157,0.14)"/>
+<circle cx="540" cy="330" r="7" fill="rgba(0,255,157,0.88)" filter="url(#gg)"/>
+<text x="498" y="293" class="fc" font-size="8" font-weight="400" fill="#00ff9d" text-anchor="start" letter-spacing="0" opacity="1">● Agent</text>
+<text x="548" y="293" class="fc" font-size="8" font-weight="400" fill="#ffd700" text-anchor="start" letter-spacing="0" opacity="1">★ Reward</text>
+<text x="608" y="293" class="fc" font-size="8" font-weight="400" fill="#00d4ff" text-anchor="start" letter-spacing="0" opacity="1">◈ Goal</text>
+<text x="44" y="570" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">Q-TABLE</text>
+<text x="111" y="570" class="js" font-size="16" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">State-Action Values</text>
+<line x1="292" y1="564" x2="856" y2="564" stroke="url(#fl)" stroke-width="1"/>
+<rect x="44" y="584" width="812" height="228" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.06)" stroke-width="1" rx="0"/>
+<rect x="44" y="584" width="812" height="28" fill="rgba(0,212,255,0.05)" stroke="none" stroke-width="1" rx="0"/>
+<line x1="44" y1="611" x2="856" y2="611" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+<text x="56" y="602" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.42)" text-anchor="start" letter-spacing="2" opacity="1">STATE (SKILL)</text>
+<text x="256" y="602" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.42)" text-anchor="start" letter-spacing="2" opacity="1">Q(s,↑)</text>
+<text x="460" y="602" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.42)" text-anchor="start" letter-spacing="2" opacity="1">Q(s,→)</text>
+<text x="598" y="602" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.42)" text-anchor="start" letter-spacing="2" opacity="1">Q(s,↓)</text>
+<text x="730" y="602" class="fc" font-size="9" font-weight="400" fill="rgba(0,212,255,0.42)" text-anchor="start" letter-spacing="2" opacity="1">BEST ACTION</text>
+<text x="56" y="634" font-size="13">⎈</text>
+<text x="74" y="634" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">K8s · GitOps</text>
+<rect x="238" y="627" width="150" height="5" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="238" y="627" width="145" height="5" rx="2" fill="url(#bg)"><animate attributeName="width" from="0" to="145" dur="1.2s" fill="freeze"/></rect>
+<text x="396" y="634" class="fc" font-size="11" font-weight="700" fill="#00ff9d" text-anchor="start" letter-spacing="0" opacity="1">0.97</text>
+<text x="460" y="634" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.88</text>
+<text x="598" y="634" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.72</text>
+<rect x="722" y="622" width="58" height="18" fill="none" stroke="rgba(0,255,157,0.25)" stroke-width="1" rx="0"/>
+<text x="751" y="634" class="fc" font-size="8" font-weight="400" fill="#00ff9d" text-anchor="middle" letter-spacing="1" opacity="1">DEPLOY</text>
+<line x1="44" y1="650" x2="856" y2="650" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<text x="56" y="672" font-size="13">🔍</text>
+<text x="74" y="672" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">AIOps</text>
+<rect x="238" y="665" width="150" height="5" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="238" y="665" width="142" height="5" rx="2" fill="url(#bb)"><animate attributeName="width" from="0" to="142" dur="1.3s" fill="freeze"/></rect>
+<text x="396" y="672" class="fc" font-size="11" font-weight="700" fill="#00d4ff" text-anchor="start" letter-spacing="0" opacity="1">0.95</text>
+<text x="460" y="672" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.81</text>
+<text x="598" y="672" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.64</text>
+<rect x="722" y="660" width="65" height="18" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="754" y="672" class="fc" font-size="8" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="1" opacity="1">MONITOR</text>
+<line x1="44" y1="688" x2="856" y2="688" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<text x="56" y="710" font-size="13">🔄</text>
+<text x="74" y="710" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">MLOps</text>
+<rect x="238" y="703" width="150" height="5" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="238" y="703" width="141" height="5" rx="2" fill="url(#bp)"><animate attributeName="width" from="0" to="141" dur="1.5s" fill="freeze"/></rect>
+<text x="396" y="710" class="fc" font-size="11" font-weight="700" fill="#b44eff" text-anchor="start" letter-spacing="0" opacity="1">0.94</text>
+<text x="460" y="710" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.78</text>
+<text x="598" y="710" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.55</text>
+<rect x="722" y="698" width="72" height="18" fill="none" stroke="rgba(180,78,255,0.25)" stroke-width="1" rx="0"/>
+<text x="758" y="710" class="fc" font-size="8" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="1" opacity="1">PIPELINE</text>
+<line x1="44" y1="726" x2="856" y2="726" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<text x="56" y="748" font-size="13">🤖</text>
+<text x="74" y="748" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">Agentic AI</text>
+<rect x="238" y="741" width="150" height="5" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="238" y="741" width="124" height="5" rx="2" fill="url(#by)"><animate attributeName="width" from="0" to="124" dur="1.6s" fill="freeze"/></rect>
+<text x="396" y="748" class="fc" font-size="11" font-weight="700" fill="#ffd700" text-anchor="start" letter-spacing="0" opacity="1">0.83</text>
+<text x="460" y="748" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.72</text>
+<text x="598" y="748" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.40</text>
+<rect x="722" y="736" width="65" height="18" fill="none" stroke="rgba(255,215,0,0.25)" stroke-width="1" rx="0"/>
+<text x="754" y="748" class="fc" font-size="8" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="1" opacity="1">EXPLORE</text>
+<line x1="44" y1="764" x2="856" y2="764" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<text x="56" y="786" font-size="13">⚡</text>
+<text x="74" y="786" class="js" font-size="11" font-weight="600" fill="rgba(226,232,255,0.8)" text-anchor="start" letter-spacing="0" opacity="1">GPU/CUDA</text>
+<rect x="238" y="779" width="150" height="5" fill="rgba(255,255,255,0.04)" stroke="none" stroke-width="0" rx="2"/>
+<rect x="238" y="779" width="114" height="5" rx="2" fill="url(#bo)"><animate attributeName="width" from="0" to="114" dur="1.8s" fill="freeze"/></rect>
+<text x="396" y="786" class="fc" font-size="11" font-weight="700" fill="#ff9500" text-anchor="start" letter-spacing="0" opacity="1">0.76</text>
+<text x="460" y="786" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.65</text>
+<text x="598" y="786" class="fc" font-size="11" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="start" letter-spacing="0" opacity="1">0.38</text>
+<rect x="722" y="774" width="72" height="18" fill="none" stroke="rgba(255,149,0,0.25)" stroke-width="1" rx="0"/>
+<text x="758" y="786" class="fc" font-size="8" font-weight="400" fill="#ff9500" text-anchor="middle" letter-spacing="1" opacity="1">OPTIMIZE</text>
+<text x="44" y="838" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">π*(s)</text>
+<text x="97" y="838" class="js" font-size="16" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Optimal Policy — Action Space</text>
+<line x1="368" y1="832" x2="856" y2="832" stroke="url(#fl)" stroke-width="1"/>
+<rect x="44" y="856" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="44" y="962" width="193" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="229" y="871" class="fc" font-size="9" font-weight="400" fill="#00ff9d" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.97</text>
+<text x="140" y="875" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=DEPLOY</text>
+<text x="140" y="900" font-size="17" text-anchor="middle">🔍</text>
+<text x="140" y="918" class="js" font-size="12" font-weight="700" fill="#00ff9d" text-anchor="middle" letter-spacing="0" opacity="1">AIOps</text>
+<rect x="52" y="926" width="52" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="78" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Anomaly</text>
+<rect x="109" y="926" width="28" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="123" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">RCA</text>
+<rect x="142" y="926" width="64" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="174" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Self-Heal</text>
+<rect x="245" y="856" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="245" y="962" width="193" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="430" y="871" class="fc" font-size="9" font-weight="400" fill="#00d4ff" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.94</text>
+<text x="341" y="875" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=PIPELINE</text>
+<text x="341" y="900" font-size="17" text-anchor="middle">🔄</text>
+<text x="341" y="918" class="js" font-size="12" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">MLOps</text>
+<rect x="253" y="926" width="40" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="273" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">CI/CD</text>
+<rect x="298" y="926" width="58" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="327" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Kubeflow</text>
+<rect x="361" y="926" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="384" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">MLflow</text>
+<rect x="446" y="856" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="446" y="962" width="193" height="2" fill="#ffd700" stroke="none" stroke-width="1" rx="0"/>
+<text x="631" y="871" class="fc" font-size="9" font-weight="400" fill="#ffd700" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.83</text>
+<text x="542" y="875" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=EXPLORE</text>
+<text x="542" y="900" font-size="17" text-anchor="middle">🤖</text>
+<text x="542" y="918" class="js" font-size="12" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">Agentic AI</text>
+<rect x="454" y="926" width="28" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="468" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">MCP</text>
+<rect x="487" y="926" width="28" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="501" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">A2A</text>
+<rect x="520" y="926" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="543" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">LLMOps</text>
+<rect x="647" y="856" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="647" y="962" width="193" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="832" y="871" class="fc" font-size="9" font-weight="400" fill="#00ff9d" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.98</text>
+<text x="743" y="875" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=SCALE</text>
+<text x="743" y="900" font-size="17" text-anchor="middle">⎈</text>
+<text x="743" y="918" class="js" font-size="12" font-weight="700" fill="#00ff9d" text-anchor="middle" letter-spacing="0" opacity="1">Platform</text>
+<rect x="655" y="926" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="678" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">GitOps</text>
+<rect x="706" y="926" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="729" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">ArgoCD</text>
+<rect x="757" y="926" width="40" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="777" y="937" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Istio</text>
+<rect x="44" y="972" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="44" y="1078" width="193" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="229" y="987" class="fc" font-size="9" font-weight="400" fill="#00d4ff" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.95</text>
+<text x="140" y="991" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=MONITOR</text>
+<text x="140" y="1016" font-size="17" text-anchor="middle">📊</text>
+<text x="140" y="1034" class="js" font-size="12" font-weight="700" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">Observability</text>
+<rect x="52" y="1042" width="34" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="69" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">OTel</text>
+<rect x="91" y="1042" width="70" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="126" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Prometheus</text>
+<rect x="166" y="1042" width="52" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="192" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Grafana</text>
+<rect x="245" y="972" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="245" y="1078" width="193" height="2" fill="#ff9500" stroke="none" stroke-width="1" rx="0"/>
+<text x="430" y="987" class="fc" font-size="9" font-weight="400" fill="#ff9500" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.76</text>
+<text x="341" y="991" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=OPTIMIZE</text>
+<text x="341" y="1016" font-size="17" text-anchor="middle">⚡</text>
+<text x="341" y="1034" class="js" font-size="12" font-weight="700" fill="#ff9500" text-anchor="middle" letter-spacing="0" opacity="1">GPU/CUDA</text>
+<rect x="253" y="1042" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="276" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">CUDA C</text>
+<rect x="304" y="1042" width="46" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="327" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Nsight</text>
+<rect x="355" y="1042" width="58" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="384" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Parallel</text>
+<rect x="446" y="972" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="446" y="1078" width="193" height="2" fill="#b44eff" stroke="none" stroke-width="1" rx="0"/>
+<text x="631" y="987" class="fc" font-size="9" font-weight="400" fill="#b44eff" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.88</text>
+<text x="542" y="991" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=LEARN</text>
+<text x="542" y="1016" font-size="17" text-anchor="middle">🧠</text>
+<text x="542" y="1034" class="js" font-size="12" font-weight="700" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">ML / AI</text>
+<rect x="454" y="1042" width="70" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="489" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Deep Learn</text>
+<rect x="529" y="1042" width="58" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="558" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">VectorDB</text>
+<rect x="592" y="1042" width="22" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="603" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">RL</text>
+<rect x="647" y="972" width="193" height="108" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="647" y="1078" width="193" height="2" fill="#ff6b9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="832" y="987" class="fc" font-size="9" font-weight="400" fill="#ff6b9d" text-anchor="end" letter-spacing="0" opacity="0.7">Q=0.96</text>
+<text x="743" y="991" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="middle" letter-spacing="2" opacity="1">A=PROTECT</text>
+<text x="743" y="1016" font-size="17" text-anchor="middle">🔐</text>
+<text x="743" y="1034" class="js" font-size="12" font-weight="700" fill="#ff6b9d" text-anchor="middle" letter-spacing="0" opacity="1">Security</text>
+<rect x="655" y="1042" width="40" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="675" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Vault</text>
+<rect x="700" y="1042" width="52" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="726" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Kyverno</text>
+<rect x="757" y="1042" width="70" height="16" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<text x="792" y="1053" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.28)" text-anchor="middle" letter-spacing="0" opacity="1">Zero-Trust</text>
+<rect x="44" y="1102" width="812" height="42" fill="rgba(255,215,0,0.02)" stroke="rgba(255,215,0,0.08)" stroke-width="1" rx="0"/>
+<text x="58" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.38)" text-anchor="start" letter-spacing="3" opacity="1">ε-GREEDY</text>
+<rect x="148" y="1113" width="39" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="167" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">MCP</text>
+<rect x="193" y="1113" width="39" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="212" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">A2A</text>
+<rect x="238" y="1113" width="88" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="282" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">Agentic AI</text>
+<rect x="332" y="1113" width="60" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="362" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">LLMOps</text>
+<rect x="398" y="1113" width="74" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="435" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">Kubeflow</text>
+<rect x="478" y="1113" width="123" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="539" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">RF Auto-scaling</text>
+<rect x="607" y="1113" width="88" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="651" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">Vector DBs</text>
+<rect x="701" y="1113" width="32" height="20" fill="none" stroke="rgba(255,215,0,0.14)" stroke-width="1" rx="0"/>
+<text x="717" y="1127" class="fc" font-size="9" font-weight="400" fill="rgba(255,215,0,0.52)" text-anchor="middle" letter-spacing="0" opacity="1">RL</text>
+<text x="44" y="1172" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">STATE</text>
+<text x="97" y="1172" class="js" font-size="16" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Environment State — Tech Stack</text>
+<line x1="377" y1="1166" x2="856" y2="1166" stroke="url(#fl)" stroke-width="1"/>
+<rect x="44" y="1190" width="151" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="57" cy="1204" r="4" fill="#FF9900"/>
+<text x="68" y="1209" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">AWS · GCP · Azure</text>
+<rect x="202" y="1190" width="151" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="215" cy="1204" r="4" fill="#326CE5"/>
+<text x="226" y="1209" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Kubernetes · Helm</text>
+<rect x="360" y="1190" width="95" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="373" cy="1204" r="4" fill="#7B42BC"/>
+<text x="384" y="1209" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Terraform</text>
+<rect x="462" y="1190" width="137" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="475" cy="1204" r="4" fill="#EF7B4D"/>
+<text x="486" y="1209" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">ArgoCD · GitOps</text>
+<rect x="606" y="1190" width="130" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="619" cy="1204" r="4" fill="#2088FF"/>
+<text x="630" y="1209" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">GitHub Actions</text>
+<rect x="44" y="1226" width="137" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="57" cy="1240" r="4" fill="#888888"/>
+<text x="68" y="1245" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Vault · Kyverno</text>
+<rect x="188" y="1226" width="137" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="201" cy="1240" r="4" fill="#466BB0"/>
+<text x="212" y="1245" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Istio · Traefik</text>
+<rect x="332" y="1226" width="123" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="345" cy="1240" r="4" fill="#425CC7"/>
+<text x="356" y="1245" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">OpenTelemetry</text>
+<rect x="462" y="1226" width="172" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="475" cy="1240" r="4" fill="#F46800"/>
+<text x="486" y="1245" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Grafana · Prometheus</text>
+<rect x="641" y="1226" width="179" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="654" cy="1240" r="4" fill="#3776AB"/>
+<text x="665" y="1245" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">Python · scikit-learn</text>
+<rect x="44" y="1262" width="151" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="57" cy="1276" r="4" fill="#0194E2"/>
+<text x="68" y="1281" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">MLflow · Kubeflow</text>
+<rect x="202" y="1262" width="137" height="28" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<circle cx="215" cy="1276" r="4" fill="#76B900"/>
+<text x="226" y="1281" class="js" font-size="11" font-weight="400" fill="rgba(226,232,255,0.48)" text-anchor="start" letter-spacing="0" opacity="1">CUDA C · NVIDIA</text>
+<text x="44" y="1322" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">REPLAY</text>
+<text x="104" y="1322" class="js" font-size="16" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Experience Replay Buffer — Repos</text>
+<line x1="402" y1="1316" x2="856" y2="1316" stroke="url(#fl)" stroke-width="1"/>
+<rect x="44" y="1340" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="44" y="1340" width="264" height="2" fill="#00d4ff" stroke="none" stroke-width="1" rx="0"/>
+<text x="54" y="1355" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=001 · AI/ML</text>
+<a href="https://github.com/rpaut03l/TS-01"><text x="54" y="1372" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">TS-01</text></a>
+<text x="54" y="1390" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">AI/ML study — DSA, ML, ODS,</text>
+<text x="54" y="1403" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Probability</text>
+<text x="54" y="1418" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">Jupyter</text>
+<rect x="316" y="1340" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="316" y="1340" width="264" height="2" fill="#b44eff" stroke="none" stroke-width="1" rx="0"/>
+<text x="326" y="1355" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=002 · MLOps</text>
+<a href="https://github.com/rpaut03l/rptl_gn_mlops"><text x="326" y="1372" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">rptl_gn_mlops</text></a>
+<text x="326" y="1390" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Native CI/CD + MLOps — ArgoCD,</text>
+<text x="326" y="1403" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Actions</text>
+<text x="326" y="1418" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">Python</text>
+<rect x="588" y="1340" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="588" y="1340" width="264" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="598" y="1355" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=003 · GPU</text>
+<a href="https://github.com/rpaut03l/Parallel-Computing-Cuda-C"><text x="598" y="1372" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">Parallel-CUDA-C</text></a>
+<text x="598" y="1390" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">CUDA C parallel computing — GPU pro</text>
+<text x="598" y="1418" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">CUDA</text>
+<rect x="44" y="1436" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="44" y="1436" width="264" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="54" y="1451" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=004 · GPU-ML</text>
+<a href="https://github.com/rpaut03l/GPU-in-ML-DL"><text x="54" y="1468" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">GPU-in-ML-DL</text></a>
+<text x="54" y="1486" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">GPU acceleration in ML + Deep</text>
+<text x="54" y="1499" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Learning</text>
+<text x="54" y="1514" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">Jupyter</text>
+<rect x="316" y="1436" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="316" y="1436" width="264" height="2" fill="#00ff9d" stroke="none" stroke-width="1" rx="0"/>
+<text x="326" y="1451" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=005 · NVIDIA</text>
+<a href="https://github.com/rpaut03l/Guide-NVIDIA-Tools"><text x="326" y="1468" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">Guide-NVIDIA-Tools</text></a>
+<text x="326" y="1486" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Nsight Systems · Compute ·</text>
+<text x="326" y="1499" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Sanitizer</text>
+<text x="326" y="1514" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">CUDA</text>
+<rect x="588" y="1436" width="264" height="88" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.055)" stroke-width="1" rx="0"/>
+<rect x="588" y="1436" width="264" height="2" fill="#ffd700" stroke="none" stroke-width="1" rx="0"/>
+<text x="598" y="1451" class="fc" font-size="8" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="0" opacity="1">replay=006 · Ref</text>
+<a href="https://github.com/rpaut03l/python-cheatsheet"><text x="598" y="1468" class="js" font-size="13" font-weight="700" fill="#e2e8ff" text-decoration="none">python-cheatsheet</text></a>
+<text x="598" y="1486" class="js" font-size="10" font-weight="400" fill="rgba(226,232,255,0.36)" text-anchor="start" letter-spacing="0" opacity="1">Comprehensive Python reference + ML</text>
+<text x="598" y="1514" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="start" letter-spacing="0" opacity="1">Python</text>
+<text x="44" y="1562" class="fc" font-size="9" font-weight="400" fill="rgba(226,232,255,0.22)" text-anchor="start" letter-spacing="3" opacity="1">VALID</text>
+<text x="97" y="1562" class="js" font-size="16" font-weight="700" fill="rgba(226,232,255,0.62)" text-anchor="start" letter-spacing="0" opacity="1">Certifications</text>
+<line x1="233" y1="1556" x2="856" y2="1556" stroke="url(#fl)" stroke-width="1"/>
+<rect x="44" y="1580" width="55" height="26" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="71" y="1597" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">⎈ CKA</text>
+<rect x="107" y="1580" width="62" height="26" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="138" y="1597" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">⎈ CKAD</text>
+<rect x="177" y="1580" width="62" height="26" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="208" y="1597" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">⎈ KCNA</text>
+<rect x="247" y="1580" width="55" height="26" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="274" y="1597" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">⎈ KCA</text>
+<rect x="310" y="1580" width="55" height="26" fill="none" stroke="rgba(180,78,255,0.25)" stroke-width="1" rx="0"/>
+<text x="337" y="1597" class="fc" font-size="10" font-weight="400" fill="#b44eff" text-anchor="middle" letter-spacing="0" opacity="1">⊕ PCA</text>
+<rect x="373" y="1580" width="62" height="26" fill="none" stroke="rgba(0,255,157,0.25)" stroke-width="1" rx="0"/>
+<text x="404" y="1597" class="fc" font-size="10" font-weight="400" fill="#00ff9d" text-anchor="middle" letter-spacing="0" opacity="1">⬡ OTCA</text>
+<rect x="443" y="1580" width="146" height="26" fill="none" stroke="rgba(255,215,0,0.25)" stroke-width="1" rx="0"/>
+<text x="516" y="1597" class="fc" font-size="10" font-weight="400" fill="#ffd700" text-anchor="middle" letter-spacing="0" opacity="1">◆ Terraform Assoc.</text>
+<rect x="597" y="1580" width="167" height="26" fill="none" stroke="rgba(0,212,255,0.25)" stroke-width="1" rx="0"/>
+<text x="680" y="1597" class="fc" font-size="10" font-weight="400" fill="#00d4ff" text-anchor="middle" letter-spacing="0" opacity="1">☁ AWS AI Practitioner</text>
+<line x1="0" y1="1624" x2="900" y2="1624" stroke="rgba(255,255,255,0.055)" stroke-width="1"/>
+<text x="44" y="1658" class="fc" font-size="11" font-weight="400" fill="rgba(0,212,255,0.38)" text-anchor="start" letter-spacing="0" opacity="1">"Infra that heals itself. Models that explain themselves."</text>
+<text x="856" y="1658" class="fc" font-size="10" font-weight="400" fill="rgba(226,232,255,0.18)" text-anchor="end" letter-spacing="0" opacity="1">rpaut03l · Singapore · UTC+08:00</text>
+</svg>
