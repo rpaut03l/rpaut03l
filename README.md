@@ -112,7 +112,7 @@
 [![Setup-as-Cuda-programmers](https://github-readme-stats.vercel.app/api/pin/?username=rpaut03l&repo=Setup-as-Cuda-programmers&theme=tokyonight&hide_border=true)](https://github.com/rpaut03l/Setup-as-Cuda-programmers)
 
 ### 📚 References
-[![python-cheatsheet](https://github-readme-stats.vercel.app/api/pin/?username=rpaut03l&repo=python-cheatsheet&theme=tokyonight&hide_border=true)](https://github.com/rpaut03l/python-cheatsheet)
+[![python-cheatsheet](https://github-readme-stats.vercel.app/api/pin/?username=rpaut03l&repo=NCA-GENL&theme=tokyonight&hide_border=true)](https://github.com/rpaut03l/NCA-GENL)
 [![Papers-Literature-ML-DL-RL-AI](https://github-readme-stats.vercel.app/api/pin/?username=rpaut03l&repo=Papers-Literature-ML-DL-RL-AI&theme=tokyonight&hide_border=true)](https://github.com/rpaut03l/Papers-Literature-ML-DL-RL-AI)
 
 </div>
