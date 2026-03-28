@@ -38,7 +38,7 @@
 
 ---
 
-## 🌱 Currently Exploring
+## 🌱 Working/Hands-On-Expereince
 
 `LLMOps` `MCP — Model Context Protocol` `A2A — Agent-to-Agent` `Agentic AI` `AI Agents` `ML on Kubernetes` `Random Forest for Auto-scaling` `Kubeflow` `Vector Databases` `Reinforcement Learning`
 
