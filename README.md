@@ -121,8 +121,8 @@ S. K. Mohanty, **R. Patel**, K. Yuvaraj, J. Chaudhary, D. Singhania
 
 ## 🎓 Education
 
-**M.Tech, Artificial Intelligence** — Indian Institute of Technology (IIT) Jodhpur
-**B.E., Information Technology** — RGTU University
+**M.Tech, Artificial Intelligence** - Indian Institute of Technology (IIT) Jodhpur
+**B.E., Information Technology** - RGTU University
 
 ---
 
